@@ -1,0 +1,25 @@
+## BenMAP-CE batch control file
+## Thu Sep  5 09:39:26 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+CREATE AQG
+
+-Filename C:/LOCAETA/BenMAP/batchmode/AQG/control_la_ccs_county_inmap_2020_pm25.aqgx
+-GridType County
+-Pollutant PM2.5
+
+ModelDirect
+
+-ModelFilename C:/LOCAETA/BenMAP/inmap_output/county_case/control_la_ccs_county_inmap_2020_pm25.csv
+-DSNName "Text Files"
+
+GENERATE REPORT AuditTrail
+
+-InputFile  C:/LOCAETA/BenMAP/batchmode/AQG/control_la_ccs_county_inmap_2020_pm25.aqgx
+-ReportFile C:/LOCAETA/BenMAP/batchmode/AQG/control_la_ccs_county_inmap_2020_pm25.txt
+

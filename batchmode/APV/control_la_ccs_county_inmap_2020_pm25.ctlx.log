@@ -1,0 +1,25 @@
+﻿Error (APVX File-No Data):BenMAP-CE was unable to open the file. The file may be corrupt, or it may have been created using a previous incompatible version of BenMAP-CE.
+Occurred: 9/6/2024 2:01:08 PM
+            -APVFilename           C:/LOCAETA/BenMAP/batchmode/APV/apv_all_yhl.apvx
+            -CFGRFilename          C:/LOCAETA/BenMAP/batchmode/CFGR/control_la_ccs_county_inmap_2020_pm25.cfgrx
+            -ResultsFilename       C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25.apvrx
+            -IncidenceAggregation  County
+            -ValuationAggregation  County
+Report Error (Input File Doesn't Exist):
+Occurred: 9/6/2024 2:01:08 PM
+            -InputFile  C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25.txt
+Report Error (Input File Doesn't Exist):
+Occurred: 9/6/2024 2:01:08 PM
+            -InputFile  C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25-incidence.csv
+            -ResultType PooledIncidence
+            -CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+            -ResultFields Point Estimate,Population,Delta,Mean,Baseline
+Report Error (Input File Doesn't Exist):
+Occurred: 9/6/2024 2:01:08 PM
+            -InputFile  C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile C:/LOCAETA/BenMAP/batchmode/APVR/control_la_ccs_county_inmap_2020_pm25-valuation.csv
+            -ResultType PooledValuation
+            -CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+            -ResultFields Point Estimate,Mean

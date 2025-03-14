@@ -1,0 +1,22 @@
+## BenMAP-CE batch control file
+## Fri Sep  6 13:45:46 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+RUN CFG 
+
+-CFGFilename      C:/LOCAETA/BenMAP/batchmode/CFG/cfg_all_yhl.cfgx
+-ResultsFilename  C:/LOCAETA/BenMAP/batchmode/CFGR/control_la_ccs_nonh3_county_inmap_2020_pm25.cfgrx
+-BaselineAQG      C:/LOCAETA/BenMAP/batchmode/AQG/base_county_inmap_2020_pm25.aqgx
+-ControlAQG       C:/LOCAETA/BenMAP/batchmode/AQG/control_la_ccs_nonh3_county_inmap_2020_pm25.aqgx
+-Year             2020
+
+GENERATE REPORT AuditTrail
+
+-InputFile  C:/LOCAETA/BenMAP/batchmode/CFGR/control_la_ccs_nonh3_county_inmap_2020_pm25.cfgrx
+-ReportFile C:/LOCAETA/BenMAP/batchmode/CFGR/control_la_ccs_nonh3_county_inmap_2020_pm25.txt
+

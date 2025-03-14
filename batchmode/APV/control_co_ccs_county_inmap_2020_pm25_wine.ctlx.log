@@ -1,0 +1,33 @@
+﻿Error (Loading APV Command): Unable to locate APV file: Z:/Users/yunhalee/Documents/LOCAETA/BenMAP/batchmode/APV/apv_all_yhl.apvx
+Occurred: 3/6/2025 12:03:16 PM
+            RUN APV
+            -APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/BenMAP/batchmode/APV/apv_all_yhl.apvx
+            -CFGRFilename          Z:/Users/yunhalee/Documents/LOCAETA/BenMAP/batchmode/CFGR/control_co_ccs_county_inmap_2020_pm25.cfgrx
+            -ResultsFilename       Z:/Users/yunhalee/Documents/LOCAETA/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.apvrx
+            -IncidenceAggregation  County
+            -ValuationAggregation  County
+Error (APVX File - all functions in apv do not match functions in cfg.):
+Occurred: 3/6/2025 12:05:26 PM
+            -APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_all_yhl.apvx
+            -CFGRFilename          Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_co_ccs_county_inmap_2020_pm25.cfgrx
+            -ResultsFilename       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.apvrx
+            -IncidenceAggregation  County
+            -ValuationAggregation  County
+Report Error (Input File Doesn't Exist):
+Occurred: 3/6/2025 12:05:26 PM
+            -InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.txt
+Report Error (Input File Doesn't Exist):
+Occurred: 3/6/2025 12:05:26 PM
+            -InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25-incidence.csv
+            -ResultType PooledIncidence
+            -CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+            -ResultFields Point Estimate,Population,Delta,Mean,Baseline
+Report Error (Input File Doesn't Exist):
+Occurred: 3/6/2025 12:05:26 PM
+            -InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25.apvrx
+            -ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_co_ccs_county_inmap_2020_pm25-valuation.csv
+            -ResultType PooledValuation
+            -CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+            -ResultFields Point Estimate,Mean

@@ -1,0 +1,24 @@
+## BenMAP-CE batch control file
+## Tue Jul 30 12:25:48 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+CREATE AQG
+
+-Filename {AQG_wine_dir}{control_run}.aqgx
+-GridType County
+-Pollutant PM2.5
+
+ModelDirect
+
+-ModelFilename {inmap_wine_dir}{control_run}.csv
+-DSNName "Text Files"
+
+GENERATE REPORT AuditTrail
+
+-InputFile  {AQG_wine_dir}{control_run}.aqgx
+-ReportFile {AQG_wine_dir}{control_run}.txt

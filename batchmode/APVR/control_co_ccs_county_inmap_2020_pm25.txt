@@ -1,0 +1,681 @@
+﻿Aggregate, Pool & Value
+Create Datetime: 2025-03-13 18:57:21
+<Aggregation>
+<Incidence>
+Name: County
+Columns: 56
+Rows: 840
+Grid Type: Shapefile
+Shapefile Name: County_epa2
+</Incidence>
+<Valuation>
+Name: County
+Columns: 56
+Rows: 840
+Grid Type: Shapefile
+Shapefile Name: County_epa2
+</Valuation>
+</Aggregation>
+<Pooling Window #1 (Asthma Exacerbation)>
+<Pooling>
+<Asthma.Exacerbation>
+Pooling Method: None
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+<Ostro.et.al.>
+Health Impact Function (Ostro et al., 2001, Asthma Exacerbation)
+</Ostro.et.al.>
+</Asthma.Exacerbation>
+</Pooling>
+<Valuation.Method.Type.None>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*B*AllGoodsIndex
+Name A: mean of lognormal WTP distribution (2015$)
+A: 220.910243
+Dist A: LogNormal
+P1A: 5.393475155
+P2A: 0.092533559
+Name B: adjustment for household income
+B: 0.973810971
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.1.symptom-day,.Dickie.and.Ulery.(2002))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*AllGoodsIndex
+Name A: WTP in 2015$
+A: 58.90062829
+Dist A: Uniform
+P1A: 21.41676137
+P2A: 97.56322973
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*AllGoodsIndex
+Name A: WTP in 2015$
+A: 58.90062829
+Dist A: Uniform
+P1A: 21.41676137
+P2A: 97.56322973
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*AllGoodsIndex
+Name A: WTP in 2015$
+A: 58.90062829
+Dist A: Uniform
+P1A: 21.41676137
+P2A: 97.56322973
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*AllGoodsIndex
+Name A: WTP in 2015$
+A: 58.90062829
+Dist A: Uniform
+P1A: 21.41676137
+P2A: 97.56322973
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+</Health.Impact.Function.(Ostro.et.al.)>
+<Health.Impact.Function.(Ostro.et.al.)>
+<Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+Dataset: Additional Valuation Functions
+Endpoint group: Asthma Exacerbation
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End age: 17
+Reference: 0
+Function: A*AllGoodsIndex
+Name A: WTP in 2015$
+A: 58.90062829
+Dist A: Uniform
+P1A: 21.41676137
+P2A: 97.56322973
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(WTP.bad.asthma.day,.Rowe.and.Chestnut.(1986))>
+</Health.Impact.Function.(Ostro.et.al.)>
+</Valuation.Method.Type.None>
+</Pooling Window #1 (Asthma Exacerbation)>
+<Pooling Window #2 (Mortality)>
+<Pooling>
+<Mortality>
+Pooling Method: None
+<Di.et.al.>
+Weight: 4.04412966363693E-07
+Health Impact Function (Di et al., 2017, Mortality)
+</Di.et.al.>
+<Di.et.al.>
+Weight: 1.02976020042507E-07
+Health Impact Function (Di et al., 2017, Mortality)
+</Di.et.al.>
+<Di.et.al.>
+Weight: 0.14639688722229
+Health Impact Function (Di et al., 2017, Mortality)
+</Di.et.al.>
+<Di.et.al.>
+Weight: 0.853544256168494
+Health Impact Function (Di et al., 2017, Mortality)
+</Di.et.al.>
+<Di.et.al.>
+Weight: 5.83492202305783E-05
+Health Impact Function (Di et al., 2017, Mortality)
+</Di.et.al.>
+</Mortality>
+</Pooling>
+<Valuation.Method.Type.None>
+<Health.Impact.Function.(Di.et.al.)>
+<Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Mortality
+Endpoint: Mortality, All Cause
+Start Age: 65
+End age: 99
+Reference: 0
+Function: A*AllGoodsIndex*B
+Name A: mean VSL in 2015$
+A: 8705114.255
+Dist A: Weibull
+P1A: 9648168.299
+P2A: 1.509588003
+Name B: 3% d.r. Cessation Lag
+B: 0.90605998
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+</Health.Impact.Function.(Di.et.al.)>
+<Health.Impact.Function.(Di.et.al.)>
+<Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Mortality
+Endpoint: Mortality, All Cause
+Start Age: 65
+End age: 99
+Reference: 0
+Function: A*AllGoodsIndex*B
+Name A: mean VSL in 2015$
+A: 8705114.255
+Dist A: Weibull
+P1A: 9648168.299
+P2A: 1.509588003
+Name B: 3% d.r. Cessation Lag
+B: 0.90605998
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+</Health.Impact.Function.(Di.et.al.)>
+<Health.Impact.Function.(Di.et.al.)>
+<Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Mortality
+Endpoint: Mortality, All Cause
+Start Age: 65
+End age: 99
+Reference: 0
+Function: A*AllGoodsIndex*B
+Name A: mean VSL in 2015$
+A: 8705114.255
+Dist A: Weibull
+P1A: 9648168.299
+P2A: 1.509588003
+Name B: 3% d.r. Cessation Lag
+B: 0.90605998
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+</Health.Impact.Function.(Di.et.al.)>
+<Health.Impact.Function.(Di.et.al.)>
+<Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Mortality
+Endpoint: Mortality, All Cause
+Start Age: 65
+End age: 99
+Reference: 0
+Function: A*AllGoodsIndex*B
+Name A: mean VSL in 2015$
+A: 8705114.255
+Dist A: Weibull
+P1A: 9648168.299
+P2A: 1.509588003
+Name B: 3% d.r. Cessation Lag
+B: 0.90605998
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+</Health.Impact.Function.(Di.et.al.)>
+<Health.Impact.Function.(Di.et.al.)>
+<Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Mortality
+Endpoint: Mortality, All Cause
+Start Age: 65
+End age: 99
+Reference: 0
+Function: A*AllGoodsIndex*B
+Name A: mean VSL in 2015$
+A: 8705114.255
+Dist A: Weibull
+P1A: 9648168.299
+P2A: 1.509588003
+Name B: 3% d.r. Cessation Lag
+B: 0.90605998
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(VSL,.based.on.26.value-of-life.studies,.with.Cessation.Lag,.3%.d.r.)>
+</Health.Impact.Function.(Di.et.al.)>
+</Valuation.Method.Type.None>
+</Pooling Window #2 (Mortality)>
+<Pooling Window #3 (Work Loss Days)>
+<Pooling>
+<Work.Loss.Days>
+Pooling Method: None
+<Ostro>
+Weight: 0.2
+Health Impact Function (Ostro, 1987, Work Loss Days)
+</Ostro>
+<Ostro>
+Weight: 1
+Health Impact Function (Ostro, 1987, Work Loss Days)
+</Ostro>
+<Ostro>
+Weight: 0.2
+Health Impact Function (Ostro, 1987, Work Loss Days)
+</Ostro>
+<Ostro>
+Weight: 0.2
+Health Impact Function (Ostro, 1987, Work Loss Days)
+</Ostro>
+<Ostro>
+Weight: 0.2
+Health Impact Function (Ostro, 1987, Work Loss Days)
+</Ostro>
+</Work.Loss.Days>
+</Pooling>
+<Valuation.Method.Type.None>
+<Health.Impact.Function.(Ostro)>
+<Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Work Loss Days
+Endpoint: Work Loss Days
+Start Age: 18
+End age: 65
+Reference: 0
+Function: ((worker_net_cost_yearly)/(52*5))*WageIndex
+Name A: N/A
+A: 0
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+</Health.Impact.Function.(Ostro)>
+<Health.Impact.Function.(Ostro)>
+<Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Work Loss Days
+Endpoint: Work Loss Days
+Start Age: 18
+End age: 65
+Reference: 0
+Function: ((worker_net_cost_yearly)/(52*5))*WageIndex
+Name A: N/A
+A: 0
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+</Health.Impact.Function.(Ostro)>
+<Health.Impact.Function.(Ostro)>
+<Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Work Loss Days
+Endpoint: Work Loss Days
+Start Age: 18
+End age: 65
+Reference: 0
+Function: ((worker_net_cost_yearly)/(52*5))*WageIndex
+Name A: N/A
+A: 0
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+</Health.Impact.Function.(Ostro)>
+<Health.Impact.Function.(Ostro)>
+<Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Work Loss Days
+Endpoint: Work Loss Days
+Start Age: 18
+End age: 65
+Reference: 0
+Function: ((worker_net_cost_yearly)/(52*5))*WageIndex
+Name A: N/A
+A: 0
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+</Health.Impact.Function.(Ostro)>
+<Health.Impact.Function.(Ostro)>
+<Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+Dataset: EPA Standard Valuation Functions (2023)
+Endpoint group: Work Loss Days
+Endpoint: Work Loss Days
+Start Age: 18
+End age: 65
+Reference: 0
+Function: ((worker_net_cost_yearly)/(52*5))*WageIndex
+Name A: N/A
+A: 0
+Name B: 0
+B: 0
+Name C: 0
+C: 0
+Name D: 0
+D: 0
+</Valuation.Function.#1.(Median.daily.wage,.county-specific)>
+</Health.Impact.Function.(Ostro)>
+</Valuation.Method.Type.None>
+</Pooling Window #3 (Work Loss Days)>
+<Advanced Settings>
+<Aggregation.and.Pooling>
+Sort Incidence LHPs: False
+Default Advanced Pooling Method: Roundweightstotwodigits
+Default Monte Carlo Iterations: 10,000
+Random Seed: 0
+</Aggregation.and.Pooling>
+<Valuation>
+No Inflation Adjustment
+No Income Growth Adjustment
+</Valuation>
+</Advanced Settings>
+<Log & Message>
+Processing complete. Valuation processing time: 0 hours 0 minutes 8 seconds.
+</Log & Message>
+</Aggregate, Pool & Value>

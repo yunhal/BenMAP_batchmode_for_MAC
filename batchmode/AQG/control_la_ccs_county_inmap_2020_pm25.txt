@@ -1,0 +1,4 @@
+﻿Air Quality Surfaces
+Create Datetime: 2025-03-06 14:14:51
+Model Database File: Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/inmap_output/county_case/control_la_ccs_county_inmap_2020_PM25.csv
+</Air Quality Surfaces>

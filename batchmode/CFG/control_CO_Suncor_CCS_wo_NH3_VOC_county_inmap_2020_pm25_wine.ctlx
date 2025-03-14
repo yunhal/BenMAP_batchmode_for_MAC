@@ -1,0 +1,21 @@
+## BenMAP-CE batch control file
+## Fri Aug 16 13:53:50 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+RUN CFG 
+
+-CFGFilename      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFG/cfg_mortality_asthma.cfgx
+-ResultsFilename  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_Suncor_CCS_wo_NH3_VOC_county_inmap_2020_pm25.cfgrx
+-BaselineAQG      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/base_county_inmap_2020_pm25.aqgx
+-ControlAQG       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/control_CO_Suncor_CCS_wo_NH3_VOC_county_inmap_2020_pm25.aqgx
+-Year             2020
+
+GENERATE REPORT AuditTrail
+
+-InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_Suncor_CCS_wo_NH3_VOC_county_inmap_2020_pm25.cfgrx
+-ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_Suncor_CCS_wo_NH3_VOC_county_inmap_2020_pm25.txt

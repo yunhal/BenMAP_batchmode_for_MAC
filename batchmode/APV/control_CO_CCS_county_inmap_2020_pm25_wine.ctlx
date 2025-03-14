@@ -1,0 +1,38 @@
+## BenMAP-CE batch control file
+## Fri Sep  6 14:02:26 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+RUN APV
+
+-APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_mortality_asthma.apvx
+-CFGRFilename          Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_CCS_county_inmap_2020_pm25.cfgrx
+-ResultsFilename       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.apvrx
+-IncidenceAggregation  County
+-ValuationAggregation  County
+
+GENERATE REPORT AuditTrail
+
+-InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.apvrx
+-ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.txt
+
+GENERATE REPORT APVR
+
+-InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.apvrx
+-ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25-incidence.csv
+-ResultType PooledIncidence
+-CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+-ResultFields Point Estimate,Population,Delta,Mean,Baseline
+
+GENERATE REPORT APVR
+
+-InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.apvrx
+-ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25-valuation.csv
+-ResultType PooledValuation
+-CustomFields Pollutant,Endpoint,Author,Start Age,End Age,Version,Age Range,Name,Race,Ethnicity
+-ResultFields Point Estimate,Mean
+

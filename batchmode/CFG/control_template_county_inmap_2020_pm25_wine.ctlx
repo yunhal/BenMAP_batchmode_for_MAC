@@ -1,0 +1,21 @@
+## BenMAP-CE batch control file
+## Fri Aug 16 13:53:50 2024
+
+VARIABLES
+
+COMMANDS
+
+SETACTIVESETUP -ActiveSetup United States
+
+RUN CFG 
+
+-CFGFilename      {CFG_wine_dir}cfg_mortality_asthma.cfgx
+-ResultsFilename  {CFGR_wine_dir}{control_run}.cfgrx
+-BaselineAQG      {AQG_wine_dir}{base_run}.aqgx
+-ControlAQG       {AQG_wine_dir}{control_run}.aqgx
+-Year             2020
+
+GENERATE REPORT AuditTrail
+
+-InputFile  {CFGR_wine_dir}{control_run}.cfgrx
+-ReportFile {CFGR_wine_dir}{control_run}.txt
