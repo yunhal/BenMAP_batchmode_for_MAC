@@ -86,11 +86,16 @@ To execute the `.ctlx` file via the command line, use:
 wine "C:\Program Files (x86)\BenMAP-CE\BenMAP.exe" "Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFG/control_co_ccs_wo_NH3_VOC_county_inmap_2020_pm25_wine.ctlx"
 ```
 
+### 10. Run BenMAP from python
+I wrote a jupyter notebook script to run BenMAP batchmode: ./batchmode/run_benmap_Wine.ipynb
+This script will run BenMAP all mode (AQG, CFG, and APV) for multiple control runs. Note the script uses "county" level. 
+
+
 ### Summary
 - **Install WINE**: Use Homebrew to install WINE and Winetricks.
 - **Set Up WINE**: Configure WINE with `winecfg` and create a WINE prefix for BenMAP.
 - **Install BenMAP**: Run the BenMAP installer using WINE.
-- **Run BenMAP**: Start BenMAP using WINE, either through the GUI or command line.
+- **Run BenMAP**: Start BenMAP using WINE, either through the GUI or command line. 
 
 
 ### Important note
