@@ -1,0 +1,8 @@
+﻿Error (Loading APV Command): Unable to locate APV file: Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_mortality_asthma.apvx
+Occurred: 3/14/2025 10:19:37 AM
+            RUN APV
+            -APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_mortality_asthma.apvx
+            -CFGRFilename          Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_NEI_no_Landfill_2001411_county_inmap_2020_pm25.cfgrx
+            -ResultsFilename       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_NEI_no_Landfill_2001411_county_inmap_2020_pm25.apvrx
+            -IncidenceAggregation  County
+            -ValuationAggregation  County
