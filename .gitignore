@@ -13,9 +13,16 @@ batchmode/AQG/.DS_Store
 batchmode/CFG/.DS_Store
 batchmode/CFGR/.DS_Store
 ~$BenMAP method list.xlsx
-**/*.aqgx
-**/*.cfgrx
-**/*.apvrx
-**/*.ctlx.log
+batchmode/APVR/*.txt
+batchmode/CFGR/*.txt
+batchmode/APV/*.txt
+batchmode/AQG/*.aqgx
+batchmode/CFGR/*.cfgrx
+batchmode/APVR/*.cfgrx
+batchmode/APVR/*.apvrx
+batchmode/APV/*.ctlx.log
+batchmode/CFG/*.ctlx.log
+batchmode/APVR/*.ctlx.log
+batchmode/CFGR/*.ctlx.log
 **/*.txt
 no_need/
