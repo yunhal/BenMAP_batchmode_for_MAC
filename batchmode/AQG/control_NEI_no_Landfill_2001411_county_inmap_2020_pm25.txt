@@ -1,4 +1,0 @@
-﻿Air Quality Surfaces
-Create Datetime: 2025-03-27 10:25:28
-Model Database File: Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/inmap_output/county_case/control_NEI_no_Landfill_2001411_county_inmap_2020_pm25.csv
-</Air Quality Surfaces>
