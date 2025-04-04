@@ -9,16 +9,16 @@ SETACTIVESETUP -ActiveSetup United States
 
 CREATE AQG
 
--Filename {AQG_wine_dir}{control_run}.aqgx
--GridType County
+-Filename {AQG_wine_dir}{base_run}.aqgx
+-GridType {grid_level}
 -Pollutant PM2.5
 
 ModelDirect
 
--ModelFilename {inmap_wine_dir}{control_run}.csv
+-ModelFilename {inmap_wine_dir}{base_run}.csv
 -DSNName "Text Files"
 
 GENERATE REPORT AuditTrail
 
--InputFile  {AQG_wine_dir}{control_run}.aqgx
--ReportFile {AQG_wine_dir}{control_run}.txt
+-InputFile  {AQG_wine_dir}{base_run}.aqgx
+-ReportFile {AQG_wine_dir}{base_run}.txt

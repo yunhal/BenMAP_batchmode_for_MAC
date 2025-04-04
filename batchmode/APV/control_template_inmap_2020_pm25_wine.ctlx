@@ -9,11 +9,11 @@ SETACTIVESETUP -ActiveSetup United States
 
 RUN APV
 
--APVFilename           {APV_wine_dir}apv_mortality_asthma.apvx
+-APVFilename           {APV_wine_dir}apv_two_mortality_asthma.apvx
 -CFGRFilename          {CFGR_wine_dir}{control_run}.cfgrx
 -ResultsFilename       {APVR_wine_dir}{control_run}.apvrx
--IncidenceAggregation  County
--ValuationAggregation  County
+-IncidenceAggregation  {grid_level}
+-ValuationAggregation  {grid_level}
 
 GENERATE REPORT AuditTrail
 

@@ -2,6 +2,9 @@ BenMAP method list.xlsx
 batchmode/no_need/
 grids/
 inmap_output/
+benmap_health_functions table.xlsx
+benmap_health_functions.CSV
+benmap_health_functions.xlsx
 .DS_Store
 batchmode/.DS_Store
 batchmode/APV/.DS_Store
@@ -10,4 +13,9 @@ batchmode/AQG/.DS_Store
 batchmode/CFG/.DS_Store
 batchmode/CFGR/.DS_Store
 ~$BenMAP method list.xlsx
+**/*.aqgx
+**/*.cfgrx
+**/*.apvrx
+**/*.ctlx.log
+**/*.txt
 no_need/

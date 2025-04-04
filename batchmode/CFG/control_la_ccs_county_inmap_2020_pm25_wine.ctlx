@@ -9,13 +9,13 @@ SETACTIVESETUP -ActiveSetup United States
 
 RUN CFG 
 
--CFGFilename      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFG/cfg_mortality_asthma.cfgx
--ResultsFilename  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_la_ccs_county_inmap_2020_pm25.cfgrx
+-CFGFilename      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFG/cfg_two_mortality_asthma.cfgx
+-ResultsFilename  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_LA_CCS_county_inmap_2020_pm25.cfgrx
 -BaselineAQG      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/base_county_inmap_2020_pm25.aqgx
--ControlAQG       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/control_la_ccs_county_inmap_2020_pm25.aqgx
+-ControlAQG       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/control_LA_CCS_county_inmap_2020_pm25.aqgx
 -Year             2020
 
 GENERATE REPORT AuditTrail
 
--InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_la_ccs_county_inmap_2020_pm25.cfgrx
--ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_la_ccs_county_inmap_2020_pm25.txt
+-InputFile  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_LA_CCS_county_inmap_2020_pm25.cfgrx
+-ReportFile Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_LA_CCS_county_inmap_2020_pm25.txt

@@ -9,7 +9,7 @@ SETACTIVESETUP -ActiveSetup United States
 
 RUN CFG 
 
--CFGFilename      {CFG_wine_dir}cfg_mortality_asthma.cfgx
+-CFGFilename      {CFG_wine_dir}cfg_two_mortality_asthma.cfgx
 -ResultsFilename  {CFGR_wine_dir}{control_run}.cfgrx
 -BaselineAQG      {AQG_wine_dir}{base_run}.aqgx
 -ControlAQG       {AQG_wine_dir}{control_run}.aqgx

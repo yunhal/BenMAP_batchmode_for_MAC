@@ -9,7 +9,7 @@ SETACTIVESETUP -ActiveSetup United States
 
 RUN APV
 
--APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_mortality_asthma.apvx
+-APVFilename           Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APV/apv_two_mortality_asthma.apvx
 -CFGRFilename          Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_CCS_county_inmap_2020_pm25.cfgrx
 -ResultsFilename       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/APVR/control_CO_CCS_county_inmap_2020_pm25.apvrx
 -IncidenceAggregation  County

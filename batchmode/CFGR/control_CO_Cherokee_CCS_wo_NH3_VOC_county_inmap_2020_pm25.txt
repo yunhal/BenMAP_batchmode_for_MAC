@@ -28,6 +28,90 @@ P1Beta: 0.00074712
 A: 0.145
 Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: HealthImpactFunctionDataSet0
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End Age: 18
+Race: BLACK
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.002565368
+Beta distribution: Normal
+P1Beta: 0.001335066
+A: 0.074
+Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: HealthImpactFunctionDataSet0
+Endpoint: Asthma Exacerbation, Wheeze
+Start Age: 6
+End Age: 18
+Race: BLACK
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.001942297
+Beta distribution: Normal
+P1Beta: 0.000802803
+A: 0.173
+Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: HealthImpactFunctionDataSet0
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End Age: 18
+Race: WHITE
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.000985293
+Beta distribution: Normal
+P1Beta: 0.00074712
+A: 0.145
+Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: HealthImpactFunctionDataSet0
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End Age: 18
+Race: WHITE
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.002565368
+Beta distribution: Normal
+P1Beta: 0.001335066
+A: 0.074
+Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
 Endpoint: Mortality, All Cause
@@ -53,10 +137,10 @@ P1Beta: 0.000118048
 </Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 <Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Shortness of Breath
+Endpoint: Asthma Exacerbation, Wheeze
 Start Age: 6
 End Age: 18
-Race: BLACK
+Race: WHITE
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
@@ -66,11 +150,32 @@ Geographic Area: Everywhere
 Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
 Baseline Functional Form: A*POP*Prevalence
 Prevalence Dataset: Prevalence (2008)
-Beta: 0.002565368
+Beta: 0.001942297
 Beta distribution: Normal
-P1Beta: 0.001335066
-A: 0.074
-Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+P1Beta: 0.000802803
+A: 0.173
+Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: HealthImpactFunctionDataSet0
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End Age: 18
+Race: ALL
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.000985293
+Beta distribution: Normal
+P1Beta: 0.00074712
+A: 0.145
+Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
@@ -97,10 +202,10 @@ P1Beta: 0.000120048
 </Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 <Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Wheeze
+Endpoint: Asthma Exacerbation, Shortness of Breath
 Start Age: 6
 End Age: 18
-Race: BLACK
+Race: ALL
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
@@ -110,32 +215,11 @@ Geographic Area: Everywhere
 Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
 Baseline Functional Form: A*POP*Prevalence
 Prevalence Dataset: Prevalence (2008)
-Beta: 0.001942297
+Beta: 0.002565368
 Beta distribution: Normal
-P1Beta: 0.000802803
-A: 0.173
-Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Cough
-Start Age: 6
-End Age: 18
-Race: WHITE
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.000985293
-Beta distribution: Normal
-P1Beta: 0.00074712
-A: 0.145
-Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
+P1Beta: 0.001335066
+A: 0.074
+Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
@@ -162,90 +246,6 @@ P1Beta: 0.000380126
 </Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 <Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Shortness of Breath
-Start Age: 6
-End Age: 18
-Race: WHITE
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.002565368
-Beta distribution: Normal
-P1Beta: 0.001335066
-A: 0.074
-Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Wheeze
-Start Age: 6
-End Age: 18
-Race: WHITE
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.001942297
-Beta distribution: Normal
-P1Beta: 0.000802803
-A: 0.173
-Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Cough
-Start Age: 6
-End Age: 18
-Race: ALL
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.000985293
-Beta distribution: Normal
-P1Beta: 0.00074712
-A: 0.145
-Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: HealthImpactFunctionDataSet0
-Endpoint: Asthma Exacerbation, Shortness of Breath
-Start Age: 6
-End Age: 18
-Race: ALL
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.002565368
-Beta distribution: Normal
-P1Beta: 0.001335066
-A: 0.074
-Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: HealthImpactFunctionDataSet0
 Endpoint: Asthma Exacerbation, Wheeze
 Start Age: 6
 End Age: 18
@@ -264,6 +264,48 @@ Beta distribution: Normal
 P1Beta: 0.000802803
 A: 0.173
 Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: Additional Health Functions
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End Age: 18
+Race: ASIAN
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.002565368
+Beta distribution: Normal
+P1Beta: 0.001335066
+A: 0.074
+Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: Additional Health Functions
+Endpoint: Asthma Exacerbation, Shortness of Breath
+Start Age: 6
+End Age: 18
+Race: NATAMER
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.002565368
+Beta distribution: Normal
+P1Beta: 0.001335066
+A: 0.074
+Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
@@ -288,24 +330,48 @@ Beta: 0.009166719
 Beta distribution: Normal
 P1Beta: 0.0009777
 </Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
-<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
-Health Impact Function Dataset: EPA Standard Health Functions (2021)
-Endpoint: Work Loss Days
-Start Age: 18
-End Age: 64
-Race: WHITE
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: Additional Health Functions
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End Age: 18
+Race: ASIAN
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
-Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
 Geographic Area: Everywhere
-Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
-Baseline Functional Form: Incidence*POP
-Incidence Dataset: Other Incidence (2000)
-Beta: 0.0046
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.000985293
 Beta distribution: Normal
-P1Beta: 0.00036
-</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+P1Beta: 0.00074712
+A: 0.145
+Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+Health Impact Function Dataset: Additional Health Functions
+Endpoint: Asthma Exacerbation, Cough
+Start Age: 6
+End Age: 18
+Race: NATAMER
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
+Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Geographic Area: Everywhere
+Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
+Baseline Functional Form: A*POP*Prevalence
+Prevalence Dataset: Prevalence (2008)
+Beta: 0.000985293
+Beta distribution: Normal
+P1Beta: 0.00074712
+A: 0.145
+Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
+</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
 Endpoint: Mortality, All Cause
@@ -331,7 +397,7 @@ P1Beta: 0.001856106
 </Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
 <Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Shortness of Breath
+Endpoint: Asthma Exacerbation, Wheeze
 Start Age: 6
 End Age: 18
 Race: ASIAN
@@ -344,15 +410,15 @@ Geographic Area: Everywhere
 Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
 Baseline Functional Form: A*POP*Prevalence
 Prevalence Dataset: Prevalence (2008)
-Beta: 0.002565368
+Beta: 0.001942297
 Beta distribution: Normal
-P1Beta: 0.001335066
-A: 0.074
-Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+P1Beta: 0.000802803
+A: 0.173
+Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Shortness of Breath
+Endpoint: Asthma Exacerbation, Wheeze
 Start Age: 6
 End Age: 18
 Race: NATAMER
@@ -365,18 +431,95 @@ Geographic Area: Everywhere
 Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
 Baseline Functional Form: A*POP*Prevalence
 Prevalence Dataset: Prevalence (2008)
-Beta: 0.002565368
+Beta: 0.001942297
 Beta distribution: Normal
-P1Beta: 0.001335066
-A: 0.074
-Name A: shortbreath8to13Black; Ostro et al., 2001, p 202, weighted avg o
+P1Beta: 0.000802803
+A: 0.173
+Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
 </Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
 <Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
 Endpoint: Work Loss Days
 Start Age: 18
 End Age: 64
+Race: WHITE
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Other Incidence (2000)
+Beta: 0.0046
+Beta distribution: Normal
+P1Beta: 0.00036
+</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Work Loss Days
+Start Age: 18
+End Age: 64
 Race: BLACK
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Other Incidence (2000)
+Beta: 0.0046
+Beta distribution: Normal
+P1Beta: 0.00036
+</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+<Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Mortality, All Cause
+Start Age: 65
+End Age: 99
+Race: ALL
+Ethnicity: HISPANIC
+Gender: ALL
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity Analysis: Total study population stratified by race (White, Black, Asian, Hispanic, Native American), Supplemental Table S3 value from Generalized Estimating Equation (GEE) using total study sample
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Other Pollutants: O3
+Reference: Di, Q., Wang Y., Zanobetti, A., Wang, Y., Koutrakis, P., Choirat, C., Dominici, F., Schwartz, J.D. 2017. Air Pollution and Mortality in the Medicare Population. The New England Journal of Medicine, 376(26), pp. 2513-2522.
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Ethnicity-Stratified Mortality Incidence (2020)
+Beta: 0.010975086
+Beta distribution: Normal
+P1Beta: 0.000754051
+</Health.Impact.Function.(Di.et.al.,.2017,.Mortality)>
+<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Work Loss Days
+Start Age: 18
+End Age: 64
+Race: ASIAN
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: None
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Other Incidence (2000)
+Beta: 0.0046
+Beta distribution: Normal
+P1Beta: 0.00036
+</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Work Loss Days
+Start Age: 18
+End Age: 64
+Race: NATAMER
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
@@ -407,126 +550,138 @@ Beta: 0.0046
 Beta distribution: Normal
 P1Beta: 0.00036
 </Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Cough
-Start Age: 6
-End Age: 18
-Race: ASIAN
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.000985293
-Beta distribution: Normal
-P1Beta: 0.00074712
-A: 0.145
-Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Cough
-Start Age: 6
-End Age: 18
-Race: NATAMER
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.000985293
-Beta distribution: Normal
-P1Beta: 0.00074712
-A: 0.145
-Name A: cough8to13Black; Ostro et al., 2001, p 202, weighted avg of aver
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Wheeze
-Start Age: 6
-End Age: 18
-Race: ASIAN
-Pollutant: PM2.5
-Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
-Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.001942297
-Beta distribution: Normal
-P1Beta: 0.000802803
-A: 0.173
-Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
-Endpoint: Work Loss Days
+Endpoint: Mortality, All Cause
 Start Age: 18
-End Age: 64
-Race: NATAMER
+End Age: 99
+Race: WHITE
+Ethnicity: ALL
+Gender: ALL
 Pollutant: PM2.5
 Metric: D24HourMean
-Metric Statistic: None
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity/At-Risk. Results for the sub-cohort "Non-Hispanic White" using the basic CPH model, Table S3
 Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
 Geographic Area: Everywhere
-Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
+Reference: Pope, C.A.III., Lefler, J.S., Ezzati, M., Higbee, J.D., Marshall, J.D., Kim, S., Bechle, M., Gilliat, K.S., Vernon, S.E., Robinson, A.L., and Burnett, R.T. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7).
 Baseline Functional Form: Incidence*POP
-Incidence Dataset: Other Incidence (2000)
-Beta: 0.0046
+Incidence Dataset: Race-Stratified Mortality Incidence (2020)
+Beta: 0.010436
 Beta distribution: Normal
-P1Beta: 0.00036
-</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
-<Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
+P1Beta: 0.001839
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
 Health Impact Function Dataset: EPA Standard Health Functions (2021)
-Endpoint: Work Loss Days
+Endpoint: Mortality, All Cause
 Start Age: 18
-End Age: 64
-Race: ASIAN
+End Age: 99
+Race: ALL
+Ethnicity: HISPANIC
+Gender: ALL
 Pollutant: PM2.5
 Metric: D24HourMean
-Metric Statistic: None
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity/At-Risk. Results for the sub-cohort "Hispanic" using the basic CPH model, Table S3
 Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
 Geographic Area: Everywhere
-Reference: Ostro, B.D. Air Pollution and Morbidity Revisited: A Specification Test. Journal of Environmental Economics and Management, 1987. 14: p. 87-98.
+Reference: Pope, C.A.III., Lefler, J.S., Ezzati, M., Higbee, J.D., Marshall, J.D., Kim, S., Bechle, M., Gilliat, K.S., Vernon, S.E., Robinson, A.L., and Burnett, R.T. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7).
 Baseline Functional Form: Incidence*POP
-Incidence Dataset: Other Incidence (2000)
-Beta: 0.0046
+Incidence Dataset: Ethnicity-Stratified Mortality Incidence (2020)
+Beta: 0.018232
 Beta distribution: Normal
-P1Beta: 0.00036
-</Health.Impact.Function.(Ostro,.1987,.Work.Loss.Days)>
-<Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
-Health Impact Function Dataset: Additional Health Functions
-Endpoint: Asthma Exacerbation, Wheeze
-Start Age: 6
-End Age: 18
-Race: NATAMER
+P1Beta: 0.004031
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Mortality, All Cause
+Start Age: 18
+End Age: 99
+Race: BLACK
+Ethnicity: ALL
+Gender: ALL
 Pollutant: PM2.5
 Metric: D24HourMean
-Metric Statistic: None
-Qualifier: Ostro study population was black, but EPA applies effect estimate to all races.
-Function: (1-(1/((1-A)*EXP(Beta*DeltaQ)+A)))*A*POP*Prevalence
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity/At-Risk. Results for the sub-cohort "Non-Hispanic Black" using the basic CPH model, Table S3
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
 Geographic Area: Everywhere
-Reference: Ostro, B., M. Lipsett, J. Mann, H. Braxton-Owens and M. White. 2001. Air pollution and exacerbation of asthma in African-American children in Los Angeles. Epidemiology. Vol. 12 (2): 200-8.
-Baseline Functional Form: A*POP*Prevalence
-Prevalence Dataset: Prevalence (2008)
-Beta: 0.001942297
+Reference: Pope, C.A.III., Lefler, J.S., Ezzati, M., Higbee, J.D., Marshall, J.D., Kim, S., Bechle, M., Gilliat, K.S., Vernon, S.E., Robinson, A.L., and Burnett, R.T. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7).
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Race-Stratified Mortality Incidence (2020)
+Beta: 0.013976
 Beta distribution: Normal
-P1Beta: 0.000802803
-A: 0.173
-Name A: wheeze8to13Black; Ostro et al., 2001, p 202, weighted avg of ave
-</Health.Impact.Function.(Ostro.et.al.,.2001,.Asthma.Exacerbation)>
+P1Beta: 0.004853
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Mortality, All Cause
+Start Age: 18
+End Age: 99
+Race: ASIAN
+Ethnicity: ALL
+Gender: ALL
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity/At-Risk. Results for the sub-cohort "Other/uknown" using the basic CPH model, Table S3
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Pope, C.A.III., Lefler, J.S., Ezzati, M., Higbee, J.D., Marshall, J.D., Kim, S., Bechle, M., Gilliat, K.S., Vernon, S.E., Robinson, A.L., and Burnett, R.T. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7).
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Race-Stratified Mortality Incidence (2020)
+Beta: 0.009531
+Beta distribution: Normal
+P1Beta: 0.007876
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Mortality, All Cause
+Start Age: 18
+End Age: 99
+Race: NATAMER
+Ethnicity: ALL
+Gender: ALL
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Sensitivity/At-Risk. Results for the sub-cohort "Other/uknown" using the basic CPH model, Table S3
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Pope, C.A.III., Lefler, J.S., Ezzati, M., Higbee, J.D., Marshall, J.D., Kim, S., Bechle, M., Gilliat, K.S., Vernon, S.E., Robinson, A.L., and Burnett, R.T. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7).
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Race-Stratified Mortality Incidence (2020)
+Beta: 0.009531
+Beta distribution: Normal
+P1Beta: 0.007876
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+<Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
+Health Impact Function Dataset: EPA Standard Health Functions (2021)
+Endpoint: Mortality, All Cause
+Start Age: 18
+End Age: 99
+Race: ALL
+Ethnicity: ALL
+Gender: ALL
+Pollutant: PM2.5
+Metric: D24HourMean
+Metric Statistic: Mean
+Seasonal Metric: QuarterlyMean
+Qualifier: Main analysis, complex CPH model with subcohort (BMI and smoking status available); HR from Table 2
+Function: (1-(1/EXP(Beta*DELTAQ)))*Incidence*POP
+Geographic Area: Everywhere
+Reference: Pope, C.A., J.S. Lefler, M. Ezzati, J.D. Higbee, J.D. Marshall, S. Kim, M. Bechele, K.S. Gilliat, S.E. Vernon, A.L. Robinson, and R.T. Burnett. 2019. Mortality Risk and Fine Particulate Air Pollution in a Large, Representative Cohort of U.S. Adults. Environmental Health Perspectives 127(7): 077077.
+Baseline Functional Form: Incidence*POP
+Incidence Dataset: Race-Stratified Mortality Incidence (2020)
+Beta: 0.01133
+Beta distribution: Normal
+P1Beta: 0.001602064
+</Health.Impact.Function.(Pope.et.al.,.2019,.Mortality)>
 </Selected Health Impact Functions>
 <Advanced Settings>
 Is Run In Point Mode: False
