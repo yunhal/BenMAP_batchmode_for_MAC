@@ -17,8 +17,10 @@ batchmode/APVR/*.txt
 batchmode/CFGR/*.txt
 batchmode/APV/*.txt
 batchmode/AQG/*.aqgx
-batchmode/CFGR/*.cfgrx
+batchmode/AQG/*.ctlx.log
 batchmode/APVR/*.cfgrx
+batchmode/CFGR/*.cfgrx
+batchmode/APV/*.cfgrx
 batchmode/APVR/*.apvrx
 batchmode/APV/*.ctlx.log
 batchmode/CFG/*.ctlx.log
