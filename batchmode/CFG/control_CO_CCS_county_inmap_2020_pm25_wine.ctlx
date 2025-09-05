@@ -11,7 +11,7 @@ RUN CFG
 
 -CFGFilename      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFG/cfg_two_mortality_asthma.cfgx
 -ResultsFilename  Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/CFGR/control_CO_CCS_county_inmap_2020_pm25.cfgrx
--BaselineAQG      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/base_county_inmap_2020_pm25.aqgx
+-BaselineAQG      Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/base_nei2020_jun2025_county_inmap_2020_pm25.aqgx
 -ControlAQG       Z:/Users/yunhalee/Documents/LOCAETA/RCM/BenMAP/batchmode/AQG/control_CO_CCS_county_inmap_2020_pm25.aqgx
 -Year             2020
 

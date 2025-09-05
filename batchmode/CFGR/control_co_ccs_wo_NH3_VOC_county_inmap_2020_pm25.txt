@@ -442,7 +442,7 @@ Health Impact Function Dataset: EPA Standard Health Functions (2021)
 Endpoint: Work Loss Days
 Start Age: 18
 End Age: 64
-Race: WHITE
+Race: BLACK
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
@@ -460,7 +460,7 @@ Health Impact Function Dataset: EPA Standard Health Functions (2021)
 Endpoint: Work Loss Days
 Start Age: 18
 End Age: 64
-Race: BLACK
+Race: WHITE
 Pollutant: PM2.5
 Metric: D24HourMean
 Metric Statistic: None
